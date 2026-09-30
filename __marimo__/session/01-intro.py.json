@@ -1,0 +1,370 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.0",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "a68756e2-5621-4fbb-b308-1a6ebd7236dd",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "1903954faf09a68d969bb22ca8ca3c15",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "966f0de8-88eb-49fd-ada7-2763babdebcb",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "9190e75de3f0fa9d269e053957fc9292",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&#x27;3.0.6&#x27;</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "a7f3d79f-6120-4862-84e1-4b23a0af48bc",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "141ba8be263bc9243ee34810b0f49bed",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "1ebcccc5eb049258b85e0ff7027b6dff",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='8d7bc676-4692-ab34-c1f4-862dcc9329b9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;model_year&#92;&quot;:10000.0,&#92;&quot;num_doors&#92;&quot;:10000.0,&#92;&quot;engine_displacement&#92;&quot;:10000.0,&#92;&quot;num_cylinders&#92;&quot;:10000.0,&#92;&quot;horsepower&#92;&quot;:9123.0,&#92;&quot;vehicle_weight&#92;&quot;:10000.0,&#92;&quot;acceleration&#92;&quot;:9736.0,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:10000.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;model_year&#92;&quot;:1999.5495,&#92;&quot;num_doors&#92;&quot;:3.504,&#92;&quot;engine_displacement&#92;&quot;:2268.807,&#92;&quot;num_cylinders&#92;&quot;:6.0352,&#92;&quot;horsepower&#92;&quot;:254.44601556505535,&#92;&quot;vehicle_weight&#92;&quot;:4286.754,&#92;&quot;acceleration&#92;&quot;:18.888044371405094,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:29.9977},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;model_year&#92;&quot;:14.207925121692695,&#92;&quot;num_doors&#92;&quot;:0.9520896215508005,&#92;&quot;engine_displacement&#92;&quot;:183.44735496649827,&#92;&quot;num_cylinders&#92;&quot;:0.542577551175778,&#92;&quot;horsepower&#92;&quot;:22.844613385643182,&#92;&quot;vehicle_weight&#92;&quot;:266.21249105374324,&#92;&quot;acceleration&#92;&quot;:1.2795434617276908,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:2.9302449289324524},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;model_year&#92;&quot;:1975.0,&#92;&quot;num_doors&#92;&quot;:2.0,&#92;&quot;engine_displacement&#92;&quot;:1590.0,&#92;&quot;num_cylinders&#92;&quot;:4.0,&#92;&quot;horsepower&#92;&quot;:171.0,&#92;&quot;vehicle_weight&#92;&quot;:3320.0,&#92;&quot;acceleration&#92;&quot;:14.0,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:19.8},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;model_year&#92;&quot;:1987.0,&#92;&quot;num_doors&#92;&quot;:3.0,&#92;&quot;engine_displacement&#92;&quot;:2150.0,&#92;&quot;num_cylinders&#92;&quot;:6.0,&#92;&quot;horsepower&#92;&quot;:239.0,&#92;&quot;vehicle_weight&#92;&quot;:4110.0,&#92;&quot;acceleration&#92;&quot;:18.0,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:28.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;model_year&#92;&quot;:2000.0,&#92;&quot;num_doors&#92;&quot;:4.0,&#92;&quot;engine_displacement&#92;&quot;:2270.0,&#92;&quot;num_cylinders&#92;&quot;:6.0,&#92;&quot;horsepower&#92;&quot;:254.0,&#92;&quot;vehicle_weight&#92;&quot;:4280.0,&#92;&quot;acceleration&#92;&quot;:18.9,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:30.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;model_year&#92;&quot;:2012.0,&#92;&quot;num_doors&#92;&quot;:4.0,&#92;&quot;engine_displacement&#92;&quot;:2390.0,&#92;&quot;num_cylinders&#92;&quot;:6.0,&#92;&quot;horsepower&#92;&quot;:270.0,&#92;&quot;vehicle_weight&#92;&quot;:4470.0,&#92;&quot;acceleration&#92;&quot;:19.7,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:31.9},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;model_year&#92;&quot;:2024.0,&#92;&quot;num_doors&#92;&quot;:5.0,&#92;&quot;engine_displacement&#92;&quot;:3110.0,&#92;&quot;num_cylinders&#92;&quot;:8.0,&#92;&quot;horsepower&#92;&quot;:334.0,&#92;&quot;vehicle_weight&#92;&quot;:5460.0,&#92;&quot;acceleration&#92;&quot;:23.8,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:41.2}]&quot;' data-total-rows='8' data-total-columns='8' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;model_year&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;num_doors&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;engine_displacement&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;num_cylinders&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;horsepower&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;vehicle_weight&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;acceleration&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;fuel_efficiency_mpg&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "1ee6e7c9-2d34-41d8-bee7-908c38bc08b7",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "a5eb48bd80a2220b3a26b23c42d8a6f9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='dbb5f2a8-eeb1-7c7c-76ca-a6bfd2d8b4fc'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Diesel&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Diesel&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Hybrid&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;},{&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Diesel&#92;&quot;}]&quot;' data-total-rows='10000' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;fuel_type&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "f6af26d7-8ec4-4e53-8f37-a884c9bcd841",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "2f90a3a7e92d8ff82d6c69323f80d9d4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='c1fcd156-5e6b-9cba-4541-1b58191a9eb7'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;model_year&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;origin&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;fuel_type&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;drivetrain&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;num_doors&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;engine_displacement&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;num_cylinders&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;horsepower&#92;&quot;,&#92;&quot;value&#92;&quot;:877},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;vehicle_weight&#92;&quot;,&#92;&quot;value&#92;&quot;:0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;acceleration&#92;&quot;,&#92;&quot;value&#92;&quot;:264}]&quot;' data-total-rows='11' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "0d8d07ddb094f82646c2d62707f348bf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>Index([&#x27;model_year&#x27;, &#x27;origin&#x27;, &#x27;fuel_type&#x27;, &#x27;drivetrain&#x27;, &#x27;num_doors&#x27;,\n       &#x27;engine_displacement&#x27;, &#x27;num_cylinders&#x27;, &#x27;horsepower&#x27;, &#x27;vehicle_weight&#x27;,\n       &#x27;acceleration&#x27;, &#x27;fuel_efficiency_mpg&#x27;],\n      dtype=&#x27;str&#x27;)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "a587a03c-d91b-44bd-a6ab-5b368ecdded3",
+      "code_hash": "9346db9fa7e1e4257881dbbf866a0f0e",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "syntax",
+          "evalue": "line 2\n    What's the maximum fuel efficiency of cars from Asia?\n        ^\nSyntaxError: unterminated string literal (detected at line 2)\n",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "58428e319aa5e9103344f24ff5317338",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='8f6a141e-2ab4-8e6f-00e7-2ed4750a34a5'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:2994.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:30.741015364061457},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:2.835474252687242},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:21.3},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:28.7},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:30.7},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:32.5},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:41.2}]&quot;' data-total-rows='8' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;fuel_efficiency_mpg&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "6b241209c2a4abece4bd0b7d43631c94",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "5085fcd8b78fccb79872908be392a189",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='BYtC-0' random-id='518f34de-1c95-d27d-6c87-a47620ecc3ff'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;horsepower&#92;&quot;:9123.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;horsepower&#92;&quot;:254.44601556505535},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;horsepower&#92;&quot;:22.844613385643182},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;horsepower&#92;&quot;:171.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;horsepower&#92;&quot;:239.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;horsepower&#92;&quot;:254.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;horsepower&#92;&quot;:270.0},{&#92;&quot;Index0&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;horsepower&#92;&quot;:334.0}]&quot;' data-total-rows='8' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;horsepower&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "84721d04fd22fec9fbb4363161a09459",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.float64(254.0)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "d19a54886200c89670b12389ded99618",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.float64(252.0)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "f37f5e7460906ec6651b5ab0a5206221",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "6eef5ad701104649e6275c3cceb1d316",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.float64(252.0)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "18c2264de4a1a045f22bfb3fd5032999",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "8f6a8c447de789868116fdf675b5a666",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ZHCJ-0' random-id='c2af5c69-7ef2-aada-58a6-26a8449a9b67'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;origin&#92;&quot;:&#92;&quot;Europe&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;Europe&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;Europe&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;USA&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;USA&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;USA&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;},{&#92;&quot;origin&#92;&quot;:&#92;&quot;USA&#92;&quot;}]&quot;' data-total-rows='10000' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;origin&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "eebbd3647b81a81ed4e4cb39422a4e48",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "eb9f975cf0959b411ceaef23ba685a28",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='qnkX-0' random-id='753f8171-7c28-21c7-02b0-ddff298008f5'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:2,&#92;&quot;model_year&#92;&quot;:1996,&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;,&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;,&#92;&quot;drivetrain&#92;&quot;:&#92;&quot;Front-wheel drive&#92;&quot;,&#92;&quot;num_doors&#92;&quot;:5,&#92;&quot;engine_displacement&#92;&quot;:2320,&#92;&quot;num_cylinders&#92;&quot;:6,&#92;&quot;horsepower&#92;&quot;:267.0,&#92;&quot;vehicle_weight&#92;&quot;:4240,&#92;&quot;acceleration&#92;&quot;:17.3,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:27.5},{&#92;&quot;Index0&#92;&quot;:6,&#92;&quot;model_year&#92;&quot;:1992,&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;,&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;,&#92;&quot;drivetrain&#92;&quot;:&#92;&quot;Front-wheel drive&#92;&quot;,&#92;&quot;num_doors&#92;&quot;:2,&#92;&quot;engine_displacement&#92;&quot;:2270,&#92;&quot;num_cylinders&#92;&quot;:6,&#92;&quot;horsepower&#92;&quot;:250.0,&#92;&quot;vehicle_weight&#92;&quot;:4310,&#92;&quot;acceleration&#92;&quot;:21.7,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:26.8},{&#92;&quot;Index0&#92;&quot;:8,&#92;&quot;model_year&#92;&quot;:1997,&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;,&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;,&#92;&quot;drivetrain&#92;&quot;:&#92;&quot;Rear-wheel drive&#92;&quot;,&#92;&quot;num_doors&#92;&quot;:3,&#92;&quot;engine_displacement&#92;&quot;:2330,&#92;&quot;num_cylinders&#92;&quot;:6,&#92;&quot;horsepower&#92;&quot;:251.0,&#92;&quot;vehicle_weight&#92;&quot;:4230,&#92;&quot;acceleration&#92;&quot;:19.5,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:30.9},{&#92;&quot;Index0&#92;&quot;:10,&#92;&quot;model_year&#92;&quot;:1978,&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;,&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;,&#92;&quot;drivetrain&#92;&quot;:&#92;&quot;All-wheel drive&#92;&quot;,&#92;&quot;num_doors&#92;&quot;:3,&#92;&quot;engine_displacement&#92;&quot;:2410,&#92;&quot;num_cylinders&#92;&quot;:6,&#92;&quot;horsepower&#92;&quot;:252.0,&#92;&quot;vehicle_weight&#92;&quot;:4420,&#92;&quot;acceleration&#92;&quot;:19.5,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:26.8},{&#92;&quot;Index0&#92;&quot;:15,&#92;&quot;model_year&#92;&quot;:2007,&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;,&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Diesel&#92;&quot;,&#92;&quot;drivetrain&#92;&quot;:&#92;&quot;Front-wheel drive&#92;&quot;,&#92;&quot;num_doors&#92;&quot;:4,&#92;&quot;engine_displacement&#92;&quot;:2170,&#92;&quot;num_cylinders&#92;&quot;:5,&#92;&quot;horsepower&#92;&quot;:226.0,&#92;&quot;vehicle_weight&#92;&quot;:3950,&#92;&quot;acceleration&#92;&quot;:18.0,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:35.4},{&#92;&quot;Index0&#92;&quot;:16,&#92;&quot;model_year&#92;&quot;:2021,&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;,&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;,&#92;&quot;drivetrain&#92;&quot;:&#92;&quot;All-wheel drive&#92;&quot;,&#92;&quot;num_doors&#92;&quot;:5,&#92;&quot;engine_displacement&#92;&quot;:2280,&#92;&quot;num_cylinders&#92;&quot;:6,&#92;&quot;horsepower&#92;&quot;:234.0,&#92;&quot;vehicle_weight&#92;&quot;:4750,&#92;&quot;acceleration&#92;&quot;:20.1,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:29.7},{&#92;&quot;Index0&#92;&quot;:22,&#92;&quot;model_year&#92;&quot;:2019,&#92;&quot;origin&#92;&quot;:&#92;&quot;Asia&#92;&quot;,&#92;&quot;fuel_type&#92;&quot;:&#92;&quot;Gasoline&#92;&quot;,&#92;&quot;drivetrain&#92;&quot;:&#92;&quot;Front-wheel drive&#92;&quot;,&#92;&quot;num_doors&#92;&quot;:5,&#92;&quot;engine_displacement&#92;&quot;:2350,&#92;&quot;num_cylinders&#92;&quot;:6,&#92;&quot;horsepower&#92;&quot;:246.0,&#92;&quot;vehicle_weight&#92;&quot;:4450,&#92;&quot;acceleration&#92;&quot;:18.7,&#92;&quot;fuel_efficiency_mpg&#92;&quot;:32.7}]&quot;' data-total-rows='7' data-total-columns='11' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;model_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;origin&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;fuel_type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;drivetrain&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;num_doors&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;engine_displacement&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;num_cylinders&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;horsepower&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;vehicle_weight&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;acceleration&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;fuel_efficiency_mpg&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "6559aedf00eeb3d1a07494bc8bec7ab6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "c451947ee21fb9982e4a8ac9435ed1fe",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "019609c54bfe638d9240b8d96a127bb7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "f491be97bf5cb9bdcfd9f5244bd44803",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "2d5cb7a109ee6c850fb0050d6439c30a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "87e1abdac6c6e3eaa325b6bd4b5d1d91",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "         2         6         8         10        15        16        22\n0 -0.275091 -0.021552 -0.228957  0.359968 -1.181629  1.213284  0.270426\n1  0.674272  0.139041  0.552999 -0.716372  2.631523 -2.549249 -0.499466\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "f837fbc92511058bea68e02ae75afc5a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.float64(0.3691969690492547)</pre>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
